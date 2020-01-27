@@ -124,13 +124,6 @@ button:focus {
   speak: none;
 }
 
-.codrops-icon--drop:before {
-  content: "\e001";
-}
-
-.codrops-icon--prev:before {
-  content: "\e004";
-}
 
 /* Demo links */
 .codrops-demos {
