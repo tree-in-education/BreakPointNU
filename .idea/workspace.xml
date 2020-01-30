@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be8ef56c-7b26-4cad-ac5b-b93be5b0e2f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/dog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/dog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/authors/dog3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +27,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WzU03sEaVhZoi1J7V8itPbPc2K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/authors" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +80,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

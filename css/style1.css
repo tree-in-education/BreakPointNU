@@ -21,7 +21,7 @@
 }
 
 body {
-  background: #fff;
+  background: #ggg;
   color: #7b7b7b;
   font-weight: 400;
   font-size: 16px;
@@ -126,24 +126,6 @@ button:focus {
 
 
 /* Demo links */
-.codrops-demos {
-  margin: 2em 0 0;
-  font-size: 0.75em;
-}
-
-.codrops-demos a {
-  display: inline-block;
-  margin: 0 0.5em;
-}
-
-.codrops-demos a.current-demo {
-  color: #333;
-  font-weight: bold;
-}
-
-.codrops-demos a.current-demo:focus {
-  color: #aaa;
-}
 
 .related {
   font-size: 0.85em;
@@ -289,7 +271,7 @@ button:focus {
 
 /* Grid item */
 .grid__item {
-  padding: 45px 55px 30px;
+  padding: 25px 15px 30px;
   position: relative;
   color: inherit;
   background: #fff;
@@ -455,7 +437,9 @@ button:focus {
 
 .meta__avatar {
   display: block;
-  border-radius: 50%;
+  border-radius: 0;
+  height: 100%;
+  width: 100%;
   margin: 2em auto;
 }
 
@@ -681,6 +665,7 @@ button:focus {
 }
 .meta--full .meta__avatar {
   margin: 1em auto;
+  max-width: 600px;
 }
 
 .category--full,
