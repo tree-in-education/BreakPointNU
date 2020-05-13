@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be8ef56c-7b26-4cad-ac5b-b93be5b0e2f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/authors/dog1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/authors/dog2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/authors/dog3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/illustrations/bluelights2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/illustrations/cta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/illustrations/stingray1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/profiles/akansha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/profiles/katherine.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/profiles/kimani.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ourmission.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/authors/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/authors/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/authors/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/authors/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/authors/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/authors/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/authors/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/authors/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/dog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/dog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/authors/dog3.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +35,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WzU03sEaVhZoi1J7V8itPbPc2K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -47,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/profiles" />
       <recent name="$PROJECT_DIR$/img/authors" />
     </key>
   </component>
@@ -87,5 +88,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
