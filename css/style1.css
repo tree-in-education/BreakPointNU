@@ -638,6 +638,7 @@ button:focus {
 
 .title--full {
   font-size: 2.25em;
+  color: #333
 }
 
 .meta--full {
@@ -649,12 +650,24 @@ button:focus {
   display: block;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .meta--full .meta__author::before {
-  content: 'by ';
+  content: 'written by ';
   font-weight: normal;
 }
+
+.meta--full .meta__artist {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.meta--full .meta__artist::before {
+  content: 'artwork by ';
+  font-weight: normal;
+}
+
 .meta--full .meta__category {
   font-style: italic;
   float: left;
