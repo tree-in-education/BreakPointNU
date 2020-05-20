@@ -33,6 +33,15 @@ body {
   /* force scroll to appear */
 }
 
+.aboutusheader {
+    font-size: 24px;
+    color: #7b7b7b;
+}
+
+.aboutusbody{
+    color: #7b7b7b;
+}
+
 /* helper class when showing content */
 .noscroll {
   overflow: hidden;
@@ -40,7 +49,7 @@ body {
 
 a {
   outline: none;
-  color: #81c483;
+  color: #333;
   text-decoration: none;
 }
 
@@ -64,7 +73,7 @@ button:focus {
   max-width: 100%;
   height: 100%;
   height: 100vh;
-  top: 0;
+  top: ;
   left: 0;
   padding: 2em 1em;
 }
@@ -144,7 +153,7 @@ button:focus {
 
 .related a:hover,
 .related a:focus {
-  color: #414741;
+  color: #46434a;
 }
 
 /* Main content */
@@ -161,7 +170,7 @@ button:focus {
 /* Overlay */
 .grid::after {
   content: '';
-  background: rgba(202, 202, 202, 0.4);
+  background: rgba(135, 95, 156, 0.4);
   opacity: 0;
   position: absolute;
   pointer-events: none;
@@ -219,7 +228,7 @@ button:focus {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #81c483;
+  background-color: #875f9c;
   font-size: 0px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -235,7 +244,7 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #81c483;
+  background: #875f9c;
   content: '';
 }
 
@@ -260,7 +269,7 @@ button:focus {
   font-weight: bold;
   margin-left: 5px;
   cursor: pointer;
-  color: #81c483;
+  color: #875f9c;
 }
 
 .dropdown::after {
@@ -299,17 +308,18 @@ button:focus {
   right: 55px;
   bottom: 0px;
   left: 55px;
-  border-bottom: 1px solid rgba(74, 74, 74, 0.075);
+  border-bottom: 1px solid rgba(135, 95, 156, 0.075);
 }
 
 .grid__item * {
   z-index: 10;
 }
 
+
 /* grid item element and full content element styles */
 .title {
   margin: 0;
-  font-size: 1.875em;
+  font-size: 1.35em;
   font-family: "Playfair Display", serif;
   text-align: center;
 }
@@ -339,7 +349,7 @@ button:focus {
   position: absolute;
   width: 100%;
   height: 3px;
-  background: #a4e7ad;
+  background: #875f9c;
   left: 0;
   top: -1px;
   -webkit-transform: scale3d(0, 1, 1);
@@ -488,7 +498,7 @@ button:focus {
 
 .article-nav button {
   border: none;
-  color: #81c483;
+  color: #875f9c;
   background: none;
 }
 
@@ -632,11 +642,12 @@ button:focus {
 .category--full {
   font-size: 1.25em;
   margin-bottom: 20px;
-  color: #81c483;
+  color: #333;
 }
 
 .title--full {
-  font-size: 3.25em;
+  font-size: 2.25em;
+  color: #333
 }
 
 .meta--full {
@@ -648,12 +659,24 @@ button:focus {
   display: block;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .meta--full .meta__author::before {
-  content: 'by ';
+  content: 'written by ';
   font-weight: normal;
 }
+
+.meta--full .meta__artist {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.meta--full .meta__artist::before {
+  content: 'artwork by ';
+  font-weight: normal;
+}
+
 .meta--full .meta__category {
   font-style: italic;
   float: left;
@@ -806,7 +829,7 @@ button:focus {
   }
 
   .grid__item {
-    padding: 45px 45px 30px;
+    padding: 30px 30px 20px;
   }
 
   /* Demo ad */
@@ -859,14 +882,14 @@ button:focus {
     right: 5px;
     bottom: 5px;
     left: 5px;
-    border: 1px solid rgba(74, 74, 74, 0.075);
+    border: 1px solid rgba(135, 95, 156, 0.075);
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
   }
 
   .grid__item:hover::before,
   .grid__item:focus::before {
-    border: 3px solid rgba(129, 196, 131, 0.5);
+    border: 3px solid rgba(135, 95, 156, 0.5);
   }
 
   .grid__item--loading.grid__item::before {
@@ -877,24 +900,6 @@ button:focus {
   /* 3 columns */
   .grid__item {
     width: 33.333%;
-  }
-}
-@media screen and (min-width: 1500px) {
-  /* 4 columns */
-  .grid__item {
-    width: 25%;
-  }
-}
-@media screen and (min-width: 1800px) {
-  /* 5 columns */
-  .grid__item {
-    width: 20%;
-  }
-}
-@media screen and (min-width: 2100px) {
-  /* 6 columns */
-  .grid__item {
-    width: 16.66%;
   }
 }
 /* small screen changes for sidebar (it becomes an off-canvas menu) */
