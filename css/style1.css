@@ -33,6 +33,15 @@ body {
   /* force scroll to appear */
 }
 
+.aboutusheader {
+    font-size: 24px;
+    color: #7b7b7b;
+}
+
+.aboutusbody{
+    color: #7b7b7b;
+}
+
 /* helper class when showing content */
 .noscroll {
   overflow: hidden;
