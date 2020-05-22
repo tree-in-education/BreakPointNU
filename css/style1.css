@@ -42,6 +42,7 @@ body {
     color: #7b7b7b;
 }
 
+
 /* helper class when showing content */
 .noscroll {
   overflow: hidden;
@@ -87,6 +88,11 @@ button:focus {
 
 .sidebar h1 span {
   display: block;
+}
+
+.sidebar img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Codrops links */
@@ -286,7 +292,7 @@ button:focus {
   background: #fff;
   min-height: 300px;
   cursor: pointer;
-  text-align: center;
+  text-align: left;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -297,7 +303,7 @@ button:focus {
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-justify-content: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* Grid item "border" */
@@ -446,6 +452,14 @@ button:focus {
 }
 
 .meta__avatar {
+  display: block;
+  border-radius: 0;
+  height: 100%;
+  width: 100%;
+  margin: 2em auto;
+}
+
+.meta__avatar_2 {
   display: block;
   border-radius: 0;
   height: 100%;
