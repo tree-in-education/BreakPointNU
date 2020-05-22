@@ -454,7 +454,6 @@ button:focus {
 .meta__avatar {
   display: block;
   border-radius: 0;
-  height: 100%;
   width: 100%;
   margin: 2em auto;
 }
@@ -462,7 +461,6 @@ button:focus {
 .meta__avatar_2 {
   display: block;
   border-radius: 0;
-  height: 100%;
   width: 100%;
   margin: 2em auto;
 }
