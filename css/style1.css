@@ -42,7 +42,9 @@ body {
     color: #7b7b7b;
 }
 
-
+header {
+   justify: center
+}
 /* helper class when showing content */
 .noscroll {
   overflow: hidden;
@@ -168,6 +170,10 @@ button:focus {
   z-index: 50;
 }
 
+.indexheader {
+    justify: center;
+    text-align: center;
+}
 /* Grid container */
 .grid {
   position: relative;
@@ -640,6 +646,7 @@ button:focus {
 .content__item p:first-of-type {
   font-size: 1.35em;
 }
+
 
 .content__item.content__item--show {
   height: auto;
