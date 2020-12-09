@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be8ef56c-7b26-4cad-ac5b-b93be5b0e2f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/in_essay_figures/escooter_fig1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/in_essay_figures/escooter_fig2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/in_essay_figures/escooter_fig3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/in_essay_figures/escooter_fig4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/in_essay_figures/peeguard_appendixA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -35,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/in_essay_figures" />
       <recent name="$PROJECT_DIR$/img/profiles" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/illustrations" />
